@@ -55,11 +55,6 @@
       "id": 2,
       "title": "Dépose totale",
       "description": "Je démonte complètement l’ancienne menuiserie et j’installe un nouveau cadre et de nouveaux ouvrants"
-    },
-    {
-      "id": 3,
-      "title": "Pose en neuf",
-      "description": "J’ai une nouvelle ouverture dans mon mur, comme dans une maison en construction ou pour une extension"
     }
   ],
   "windowTypes": [
