@@ -1,16 +1,152 @@
 {
-  "posts":[
+  "routersLinks": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "title": "1",
+      "link": "stage-one",
+      "description": "Вибор <br> размера"
+    },
+    {
+      "id": 2,
+      "title": "2",
+      "link": "stage-two",
+      "description": "Вибор <br> размера"
+    },
+    {
+      "id": 3,
+      "title": "3",
+      "link": "stage-three",
+      "description": "Вибор <br> профиля"
     }
   ],
-  "comments" : [
+  "windowStructure": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "title": "1",
+      "link": "/assets/images/structures/one-window.jpg",
+      "description": "one"
+    },
+    {
+      "id": 2,
+      "title": "2",
+      "link": "/assets/images/structures/two-window.jpg",
+      "description": "two"
+    },
+    {
+      "id": 3,
+      "title": "3",
+      "link": "/assets/images/structures/three-window.jpg",
+      "description": "three"
+    },
+    {
+      "id": 4,
+      "title": "door",
+      "link": "/assets/images/structures/door.jpg",
+      "description": "door"
     }
-  ]
+  ],
+  "windowInstallationTypes": [
+    {
+      "id": 1,
+      "title": "Pose en rénovation",
+      "description": "Je démonte les parties ouvrantes de mon ancienne menuiserie et j’installe un nouveau cadre au-dessus de l’ancien"
+    },
+    {
+      "id": 2,
+      "title": "Dépose totale",
+      "description": "Je démonte complètement l’ancienne menuiserie et j’installe un nouveau cadre et de nouveaux ouvrants"
+    },
+    {
+      "id": 3,
+      "title": "Pose en neuf",
+      "description": "J’ai une nouvelle ouverture dans mon mur, comme dans une maison en construction ou pour une extension"
+    }
+  ],
+  "windowTypes": [
+    {
+      "id": 1,
+      "title": "Fenêtre",
+      "description": "Frappe ou coulissant"
+    },
+    {
+      "id": 2,
+      "title": "Porte-fenêtre",
+      "description": ""
+    }
+  ],
+  "windowMaterials": [
+    {
+      "id": 1,
+      "title": "PVC - Gamme Paris",
+      "description": "http://configurateur.leroymerlin.fr/cameleonResources/RMGRepository/wksMenuiserie/IMAGE/COD_MAT_PVC/ImageOn/fr_FR/PVC.jpg"
+    },
+    {
+      "id": 2,
+      "title": "PVC - Gamme OSLO",
+      "description": "http://configurateur.leroymerlin.fr/cameleonResources/RMGRepository/wksMenuiserie/IMAGE/COD_MAT_PVC_OSLO/ImageOn/fr_FR/PVC_OSLO.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Bois -  Gamme Venise",
+      "description": "http://configurateur.leroymerlin.fr/cameleonResources/RMGRepository/wksMenuiserie/IMAGE/COD_MAT_BOIS/ImageOn/fr_FR/BOIS.jpg"
+    }
+  ],
+  "color_exterior": [
+    {
+      "id": 1,
+      "image": "http://configurateur.leroymerlin.fr/cameleonResources/RMGRepository/wksMenuiserie/IMAGE/COD_COU_G004%23CHENE_LASUR/ImageOn/fr_FR/G004%23CHENE_LASUR.png",
+      "description": "Blanc Satiné, RAL 9016"
+    },
+    {
+      "id": 2,
+      "image": "http://configurateur.leroymerlin.fr/cameleonResources/RMGRepository/wksMenuiserie/IMAGE/COD_COU_G004%23LAQUE_RAL9016/ImageOn/fr_FR/G004%23LAQUE_RAL9016.png",
+      "description": "Chêne Doré Texturé, Chêne doré"
+    },
+    {
+      "id": 3,
+      "image": "http://configurateur.leroymerlin.fr/cameleonResources/RMGRepository/wksMenuiserie/IMAGE/COD_COU_G004%23LAQUE_RAL7035/ImageOn/fr_FR/G004%23LAQUE_RAL7035.png",
+      "description": "Noir Texturé, RAL 9005"
+    }
+  ],
+  "color_interior": [
+    {
+      "id": 1,
+      "image": "http://configurateur.leroymerlin.fr/cameleonResources/RMGRepository/wksMenuiserie/IMAGE/COD_COU_G004%23LAQUE_RAL1019/ImageOn/fr_FR/G004%23LAQUE_RAL1019.png",
+      "description": "Blanc Satiné, RAL 9016"
+    },
+    {
+      "id": 2,
+      "image": "http://configurateur.leroymerlin.fr/cameleonResources/RMGRepository/wksMenuiserie/IMAGE/COD_COU_G004%23LAQUE_RAL3004/ImageOn/fr_FR/G004%23LAQUE_RAL3004.png",
+      "description": "Chêne Doré Texturé, Chêne doré"
+    },
+    {
+      "id": 3,
+      "image": "http://configurateur.leroymerlin.fr/cameleonResources/RMGRepository/wksMenuiserie/IMAGE/COD_COU_G004%23LAQUE_RAL6034/ImageOn/fr_FR/G004%23LAQUE_RAL6034.png",
+      "description": "Noir Texturé, RAL 9005"
+    }
+  ],
+  "defaultStageValues":{
+    "window_material":"PVC - Gamme Paris",
+    "ext_color":"Blanc Satiné, RAL 9016",
+    "int_color":"Chêne Doré Texturé, Chêne doré",
+    "profile_img": "http://configurateur.leroymerlin.fr/cameleonResources/RMGRepository/wksMenuiserie/IMAGE/COD_MAT_PVC/ImageOn/fr_FR/PVC.jpg"
+  },
+  "defaultWindowStructure":{
+    "one":{
+      "0": {"name": "fix", "src": "/assets/images/structures/types/window_clear.jpg","description":"Фиксированая"}
+    },
+    "two": {
+      "0": {"name": "fix", "src": "/assets/images/structures/types/window_clear.jpg","description":"Фиксированая"},
+      "1": {"name": "opened_center_right", "src": "/assets/images/structures/types/window_right.jpg","description":"Поворотно-откидная <br> в право"}
+    },
+    "three": {
+      "0": {"name": "fix", "src": "/assets/images/structures/types/window_clear.jpg","description":"Фиксированая"},
+      "1": {"name": "opened_center_right", "src": "/assets/images/structures/types/window_right.jpg","description":"Поворотно-откидная <br> в право"},
+      "2": {"name": "fix", "src": "/assets/images/structures/types/window_clear.jpg","description":"Фиксированая"}
+    },
+    "door": {
+      "0": {"name": "fix", "src": "/assets/images/structures/types/window_clear.jpg","description":"Фиксированая"}
+    }
+
+  }
 }
